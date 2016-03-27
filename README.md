@@ -1,32 +1,33 @@
 # fradrat.github.io
 
-Projet de site web : Raticiels - Fiches de logiciels libres
+raticiels - une sélection de logiciels libres
+---------------------------------------------
 
-Fiche du logiciel :
+Création d'un site web proposant des fiches détaillées d'une sélection de logiciels libres.
 
-- Date de la dernière mise à jour de la fiche
-- Descriptif/résumé du logiciel
-- Notation de une à trois étoiles sur :
--- Prise en main
--- Efficacité
--- Documentation
--- Possibilités
+Fiche de logiciel
+-----------------
 
-- SOURCE
--- Site web du logiciel
--- Auteur principal
--- Version stable
--- Développement
--- Licence
+*Date de la dernière mise à jour de la fiche
+*Descriptif/résumé du logiciel
+*Notation de une à trois étoiles sur : Prise en main, Efficacité, Documentation, Possibilités
 
-- MANUEL
+###SOURCE
 
-- CONFIGURATION
+*Site web du logiciel
+*Auteur principal
+*Version stable
+*Développement
+*Licence
 
-- CAPTURE D'ECRAN
+###MANUEL
 
-- RACCOURCIS
+###CONFIGURATION
 
-- ASTUCES
+###CAPTURE D'ECRAN
+
+###RACCOURCIS
+
+###ASTUCES
 
 
