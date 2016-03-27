@@ -14,15 +14,18 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
 
 <body class="w3-light-grey w3-content w3-text-dark-grey w3-large" style="max-width:1200px">
 
-<!-- Sidenav/menu -->
+<!-- Sidenav -->
 <nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:400px;"><br>
   <div class="w3-container">
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding-large" title="close menu">x</a>
     <img src="rat.jpg" style="width:70%"><br/>
     <p class="w3-text-grey w3-center"><i>Raticiels : une sélection de logiciels libres</i></p>
   </div>
-   <a href="abook.html" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">abook</a> 
-   <a href="ratpoison.html" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ratpoison</a>
+   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">abook</a> 
+   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">mupdf</a>
+   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ranger</a>
+   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ratpoison</a>
+   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">weechat</a>
 </nav>
 
 <!-- Overlay effect when opening sidenav on small screens -->
@@ -62,7 +65,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
   </div>
   </div>
 
-  <!-- First Photo Grid-->
+  <!-- First Grid-->
   <div class="w3-row-padding">
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4">
@@ -96,7 +99,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
       </div>
     </div>
 
-  <!-- Second Photo Grid-->
+  <!-- Second Grid-->
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4">
         <button onclick="myFunction('Defil3')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
@@ -127,7 +130,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
       </div>
     </div>
 
-  <!-- Third Photo Grid-->
+  <!-- Third Grid-->
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4 w3-white">
         <button onclick="myFunction('Defil5')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
@@ -174,7 +177,7 @@ function w3_close() {
     document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
     document.getElementsByClassName("w3-overlay")[0].style.display = "none";
 }
-// Accordeon
+// Accordion
 function myFunction(id) {
     document.getElementById(id).classList.toggle("w3-show");
     document.getElementById(id).previousElementSibling.classList.toggle();
