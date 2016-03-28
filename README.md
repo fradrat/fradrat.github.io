@@ -1,7 +1,7 @@
 raticiels - Une sélection de logiciels libres
 =============================================
 
-Projet de création d'un site web proposant des fiches détaillées d'une sélection de logiciels libres.
+Création d'un site web proposant des fiches détaillées d'une sélection de logiciels libres.
 
 Fiche de logiciel
 -----------------
@@ -14,7 +14,7 @@ Fiche de logiciel
 
 - Site web du logiciel
 - Auteur principal
-- Dernière Version stable
+- Dernière version stable
 - Développement
 - Licence
 
