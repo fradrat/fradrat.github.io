@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="rat.css">
 <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -12,7 +13,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
 .w3-sidenav a {font-family:"Lato", sans-serif;font-weight:bold}
 </style>
 
-<body class="w3-light-grey w3-content w3-text-dark-grey w3-large" style="max-width:1200px">
+<body class="w3-content rat-lite rat-text-dark w3-large" style="max-width:1200px">
 
 <!-- Sidenav -->
 <nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:400px;"><br>
@@ -20,12 +21,12 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
     <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding-large" title="close menu">x</a>
     <a href="index.html" class="w3-hover-white"><img src="rat.jpg" style="width:70%"></a>
   </div>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">abook</a> 
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">mupdf</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ne</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ranger</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ratpoison</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">weechat</a>
+   <a href="#" class="w3-padding rat-text-link rat-hover-link w3-xxlarge w3-center">abook</a> 
+   <a href="#" class="w3-padding rat-text-link rat-hover-link w3-xxlarge w3-center">mupdf</a>
+   <a href="#" class="w3-padding rat-text-link rat-hover-link w3-xxlarge w3-center">ne</a>
+   <a href="#" class="w3-padding rat-text-link rat-hover-link w3-xxlarge w3-center">ranger</a>
+   <a href="#" class="w3-padding rat-text-link rat-hover-link w3-xxlarge w3-center">ratpoison</a>
+   <a href="#" class="w3-padding rat-text-link rat-hover-link w3-xxlarge w3-center">weechat</a>
 </nav>
 
 <!-- Overlay effect when opening sidenav on small screens -->
@@ -69,7 +70,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
   <div class="w3-row-padding">
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4">
-        <button onclick="myFunction('Defil1')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
+        <button onclick="myFunction('Defil1')" class="w3-btn-block w3-center rat-text-link w3-white">
           <i class="fa fa-download fa-3x"></i>&nbsp;&nbsp;<b class="w3-slim" style="font-weight:bold;font-variant:smallcaps">SOURCE</b>
         </button>
         <div id="Defil1" class="w3-accordion-content w3-white">
@@ -86,7 +87,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
 
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4">
-        <button onclick="myFunction('Defil2')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
+        <button onclick="myFunction('Defil2')" class="w3-btn-block w3-center rat-text-link w3-white">
           <i class="fa fa-book fa-3x"></i>&nbsp;&nbsp;<b class="w3-slim" style="font-weight:bold;font-variant:smallcaps">MANUEL</b>
         </button>
         <div id="Defil2" class="w3-accordion-content w3-white">
@@ -103,7 +104,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
   <!-- Second Grid-->
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4">
-        <button onclick="myFunction('Defil3')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
+        <button onclick="myFunction('Defil3')" class="w3-btn-block w3-center rat-text-link w3-white">
           <i class="fa fa-cog fa-3x"></i>&nbsp;&nbsp;<b class="w3-slim" style="font-weight:bold;font-variant:smallcaps">CONFIGURATION</b>
         </button>
         <div id="Defil3" class="w3-accordion-content w3-white">
@@ -118,7 +119,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
 
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4 w3-white">
-        <button onclick="myFunction('Defil4')" class="w3-btn-block w3-text-blue-grey w3-center w3-white">
+        <button onclick="myFunction('Defil4')" class="w3-btn-block w3-center rat-text-link w3-white">
           <i class="fa fa-camera fa-3x"></i>&nbsp;&nbsp;<b class="w3-slim" style="font-weight:bold;font-variant:smallcaps">CAPTURES D'ECRAN</b>
         </button>
         <div id="Defil4" class="w3-accordion-content w3-white">
@@ -134,7 +135,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
   <!-- Third Grid-->
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4 w3-white">
-        <button onclick="myFunction('Defil5')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
+        <button onclick="myFunction('Defil5')" class="w3-btn-block w3-center rat-text-link w3-white">
           <i class="fa fa-keyboard-o fa-3x"></i>&nbsp;&nbsp;<b class="w3-slim" style="font-weight:bold;font-variant:smallcaps">RACCOURCIS</b>
         </button>
         <div id="Defil5" class="w3-accordion-content w3-white">
@@ -149,7 +150,7 @@ html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
 
     <div class="w3-half w3-container w3-margin-bottom">
       <div class="w3-accordion w3-card-4 w3-white">
-        <button onclick="myFunction('Defil6')" class="w3-btn-block w3-center w3-text-blue-grey w3-white">
+        <button onclick="myFunction('Defil6')" class="w3-btn-block w3-center rat-text-link w3-white">
         <i class="fa fa-lightbulb-o fa-3x"></i>&nbsp;&nbsp;<b class="w3-slim" style="font-weight:bold;font-variant:smallcaps">ASTUCES</b>
         </button>
         <div id="Defil6" class="w3-accordion-content w3-white">

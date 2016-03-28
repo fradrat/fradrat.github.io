@@ -4,70 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="rat.css">
 <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5 {font-family:"Lato", sans-serif}
-.w3-sidenav a {font-family:"Lato", sans-serif;font-weight:bold}
+body,h1{font-family: "Lato", sans-serif}
 </style>
 
-<body class="w3-light-grey w3-content w3-text-dark-grey w3-large" style="max-width:1200px">
+<body style="max-width:1200px">
 
-<!-- Sidenav -->
-<nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:400px;"><br>
-  <div class="w3-container">
-    <a href="index.html" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding-large" title="close menu">x</a>
-    <a href="index.html" class="w3-hover-white"><img src="rat.jpg" style="width:70%"></a>
+<!-- Header -->
+<div class="w3-container w3-white rat-text-dark w3-center xw3-opacity w3-padding-64">
+  <div class="w3-padding-64">
+    <img class="w3-left" src="rat.jpg">
+    <h1 class="w3-margin w3-jumbo"><b>raticiels</b></h1>
+    <p class="w3-xxlarge rat-text-deco"><i>Une sélection de logiciels libres</i></p>
+    <a class="w3-btn w3-padding-xxlarge w3-xxlarge w3-margin-top rat-link" href="abook.html">Couine !</a>
   </div>
-   <a href="abook.html" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">abook</a> 
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">mupdf</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ne</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ranger</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">ratpoison</a>
-   <a href="#" class="w3-padding w3-text-blue-grey w3-hover-blue-grey w3-xxlarge w3-center">weechat</a>
-</nav>
-
-<!-- Overlay effect when opening sidenav on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:400px">
-
-  <!-- Header -->
-  <header class="w3-container">
-    <a href="index.html"><img src="rat.jpg" style="width:150px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <h1><b>raticiels</b></h1>
-    <p class="w3-text-grey"><i class="material-icons w3-xlarge">update</i><i>27 mars 2016</i></p>
-    <div class="w3-section w3-bottombar w3-padding-8">
-    </div>
-  </header>
-  
-  <!-- Resume -->
-  <div class="w3-row-padding">
-  <div class="w3-container w3-twothird w3-margin-bottom">
-    <p style="text-align:justify">
-    A propos de raticiels...
-    </p>
-  </div>
-
-<!-- End page content -->
 </div>
-
-<!-- Scripts -->
-<script>
-// Script to open and close sidenav
-function w3_open() {
-    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
-    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
-    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
-}
-</script>
 
 </body>
 </html>

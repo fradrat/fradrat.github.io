@@ -1,0 +1,11 @@
+/* raticiels colors */
+
+.rat-dark,.rat-hover-dark:hover{color:#fff !important;background-color:#242420 !important}
+.rat-link,.rat-hover-link:hover{color:#fff !important;background-color:#a6845f !important}
+.rat-lite,.rat-hover-lite:hover{color:#fff !important;background-color:#eae9e1 !important}
+.rat-deco,.rat-hover-deco:hover{color:#fff !important;background-color:#b0b7b0 !important}
+
+.rat-text-dark,.rat-hover-text-dark:hover{color:#242420 !important}
+.rat-text-link,.rat-hover-text-link:hover{color:#a6845f !important}
+.rat-text-lite,.rat-hover-text-lite:hover{color:#eae9e1 !important}
+.rat-text-deco,.rat-hover-text-deco:hover{color:#b0b7b0 !important}
