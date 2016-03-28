@@ -367,15 +367,3 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7 !important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7 !important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffd7 !important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff !important}
 .w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-text-shadow{text-shadow:1px 1px 0 #444}.w3-text-shadow-white{text-shadow:1px 1px 0 #ddd}
-
-.rat-back,.rat-hover-back:hover{color:#000 !important;background-color:#d5d2c3 !important}
-.rat-dark,.rat-hover-dark:hover{color:#000 !important;background-color:#433f34 !important}
-.rat-lite,.rat-hover-lite:hover{color:#000 !important;background-color:#7d7463 !important}
-.rat-link,.rat-hover-link:hover{color:#fff !important;background-color:#c7a276 !important}
-.rat-deco,.rat-hover-deco:hover{color:#000 !important;background-color:#b0b7b0 !important}
-
-.rat-text-back,.rat-hover-text-back:hover{color:#d5d2c3 !important}
-.rat-text-dark,.rat-hover-text-dark:hover{color:#433f34 !important}
-.rat-text-lite,.rat-hover-text-lite:hover{color:#7d7463 !important}
-.rat-text-link,.rat-hover-text-link:hover{color:#c7a276 !important}
-.rat-text-deco,.rat-hover-text-deco:hover{color:#b0b7b0 !important}
