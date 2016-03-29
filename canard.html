@@ -23,7 +23,7 @@
   <div class="w3-card-12 w3-rest w3-center w3-lime w3-text-white w3-round-xxlarge w3-margin">
     <img class="w3-margin-8 w3-spin" src="menu.png">
     <h1 class="w3-xlarge w3-hover-text-black robot"><a href="#"><i class="fa fa-bar-chart fa-2x"></i>Statistrucs</a></h1>
-    <h1 class="w3-xlarge w3-hover-text-black robot"><a href="#"><i class="fa fa-question-circle fa-2x"></i>Commandes bot</a></h1>
+    <h1 class="w3-xlarge w3-hover-text-black robot"><a href="#cmdbot"><i class="fa fa-question-circle fa-2x"></i>Commandes bot</a></h1>
   </div>  
 </div>
 
@@ -88,6 +88,24 @@ function showDivs(n) {
     <img class="w3-margin" src="rms.jpg">
   </div>
 </div>
+
+<a id="cmdbot"></a>
+<table class="w3-table w3-striped w3-white w3-large w3-text-dark-grey w3-bordered w3-card-4">
+  <thead><tr class="w3-text-white w3-cyan"><th>Commande</th><th>Paramètres</th><th>Résultat</th></tr></thead>
+                <tr><td><strong>;help</strong></td><td>[commande]</td><td>Donne une liste des commandes disponibles, ou si [commande] est fourni, donnera l'aide relative à [commande]</td></tr>
+                <tr><td><strong>;bisou</strong></td><td>pseudo</td><td>Fera un bisou de ta part à la personne de ton choix</td></tr>
+                <tr><td><strong>;love</strong></td><td>pseudo_1 [pseudo_2]</td><td>Teste la compatibilité entre deux pseudos</td></tr>
+                <tr><td><strong>;baffe</strong></td><td>pseudo</td><td>Met une baffe à quelqu'un</td></tr>
+                <tr><td><strong>;blague</strong></td><td></td><td>Raconte une blague</td></tr>
+                <tr><td><strong>;horoscope</strong></td><td>signe</td><td>Donne l'horoscope du jour pour le signe </td></tr>
+                <tr><td><strong>;kinder</strong></td><td>[pseudo]</td><td>Donne (ou recoit) un Kinder !</td></tr>
+                <tr><td><strong>;btc</strong></td><td></td><td>Donne la valeur actuelle d'un Bitcoin en euro</td></tr>
+                <tr><td><strong>;ltc</strong></td><td></td><td>Donne la valeur actuelle d'un Litecoin en euro</td></tr>
+                <tr><td><strong>;uptime</strong></td><td></td><td>Donnera le temps d'uptime du bot</td></tr>
+                <tr><td><strong>;memory</strong></td><td></td><td>Affichera les informations relatives à la mémoire interne du bot</td></tr>
+                <tr><td><strong>;ping</strong></td><td></td><td>Le bot répondra par un pong (utile pour savoir si le bot est en ligne)</td></tr>
+  <tr class="w3-cyan w3-text-white"><td colspan="3">Les paramètres entre crochets [] sont optionels</td></tr>
+</table>
 
 </body>
 </html>
